@@ -1,0 +1,2423 @@
+[
+    {
+        "provider": "ESARJ",
+        "name": "Kosifler Oto, Antalya",
+        "latitude": 36.914539,
+        "longitude": 30.776699,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Hastalya Otomotiv, Antalya",
+        "latitude": 36.905548,
+        "longitude": 30.753563,
+        "acConnectors": 1,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Otopratik (Hanedar), Antalya",
+        "latitude": 36.90449,
+        "longitude": 30.75463,
+        "acConnectors": 1,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Shemall, Antalya",
+        "latitude": 36.85716,
+        "longitude": 30.74616,
+        "acConnectors": 1,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Özkaymak Falez Otel, Antalya",
+        "latitude": 36.886974,
+        "longitude": 30.675648,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Özkaymak Falez Otel, Antalya",
+        "latitude": 36.887111,
+        "longitude": 30.676639,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Otopratik (Ekspres Lastik), Antalya",
+        "latitude": 36.996944,
+        "longitude": 30.629,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Opel Mutsan Otomotiv, Isparta",
+        "latitude": 37.798,
+        "longitude": 30.577833,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Ramada by Wyndham, Isparta",
+        "latitude": 37.774167,
+        "longitude": 30.549056,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Yapaş Züccaciye, Isparta",
+        "latitude": 37.762583,
+        "longitude": 30.612583,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Shemall, Antalya",
+        "latitude": 36.856972,
+        "longitude": 30.747389,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Shemall, Antalya",
+        "latitude": 36.857278,
+        "longitude": 30.747028,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "The Marmara, Antalya",
+        "latitude": 36.856806,
+        "longitude": 30.738917,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Alva Donna Beach Resort, Antalya",
+        "latitude": 36.820361,
+        "longitude": 31.291333,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Alva Donna Exclusive Hotel, Antalya",
+        "latitude": 36.835583,
+        "longitude": 31.144444,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Opel Balaban Otomotiv, Antalya",
+        "latitude": 36.843028,
+        "longitude": 30.597722,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Park AVM, Isparta",
+        "latitude": 37.781778,
+        "longitude": 30.545556,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Park AVM, Isparta",
+        "latitude": 37.78175,
+        "longitude": 30.545583,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Park AVM, Isparta",
+        "latitude": 37.781722,
+        "longitude": 30.545611,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Park AVM, Isparta",
+        "latitude": 37.781694,
+        "longitude": 30.545639,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Bulvar Avm, Isparta",
+        "latitude": 37.798306,
+        "longitude": 30.5385,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Bulvar Avm, Isparta",
+        "latitude": 37.798306,
+        "longitude": 30.538528,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Bulvar Avm, Isparta",
+        "latitude": 37.798333,
+        "longitude": 30.538472,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Iyaş Bulvar Avm, Isparta",
+        "latitude": 37.798333,
+        "longitude": 30.538444,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.864056,
+        "longitude": 31.052222,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.864028,
+        "longitude": 31.052278,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.864028,
+        "longitude": 31.052333,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.862667,
+        "longitude": 31.053833,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.862703,
+        "longitude": 31.053797,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Aytemiz, Yorgancıoğlu, Antalya",
+        "latitude": 37.086222,
+        "longitude": 30.204,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Aytemiz, Yorgancıoğlu, Antalya",
+        "latitude": 37.086234,
+        "longitude": 30.203908,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Aytemiz, Yorgancıoğlu, Antalya",
+        "latitude": 37.08624,
+        "longitude": 30.203851,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Carrefoursa, Lara, Antalya",
+        "latitude": 36.857556,
+        "longitude": 30.737167,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Otopratik (Ekspres Lastik), Antalya",
+        "latitude": 36.996806,
+        "longitude": 30.628917,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Otopratik (Ekspres Lastik), Antalya",
+        "latitude": 36.996806,
+        "longitude": 30.628778,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Golf Resort Antalya",
+        "latitude": 36.842083,
+        "longitude": 31.110917,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Golf Resort Antalya",
+        "latitude": 36.842111,
+        "longitude": 31.110861,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Golf Resort Antalya",
+        "latitude": 36.842,
+        "longitude": 31.110806,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Golf Resort Antalya",
+        "latitude": 36.842,
+        "longitude": 31.111,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Migros AVM, Antalya",
+        "latitude": 36.883306,
+        "longitude": 30.65975,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Verde Resort, Antalya",
+        "latitude": 36.846306,
+        "longitude": 31.088889,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Verde Resort, Antalya",
+        "latitude": 36.846056,
+        "longitude": 31.089083,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Verde Resort, Antalya",
+        "latitude": 36.846056,
+        "longitude": 31.089111,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Serenity Resort, Antalya",
+        "latitude": 36.841972,
+        "longitude": 31.108444,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Gloria Serenity Resort, Antalya",
+        "latitude": 36.841944,
+        "longitude": 31.108472,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Civil, Muratpaşa, Antalya",
+        "latitude": 36.86825,
+        "longitude": 30.735972,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Süvari Akaryakıt, Kepez Beşkonaklılar, Antalya",
+        "latitude": 36.926861,
+        "longitude": 30.743917,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Süvari Akayakıt, Kepez Varsak, Antalya",
+        "latitude": 36.984861,
+        "longitude": 30.714722,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "The Land of Legends, Antalya",
+        "latitude": 36.880722,
+        "longitude": 31.003694,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Propratik (Ömer Çavuşoğlu), Antalya",
+        "latitude": 36.975583,
+        "longitude": 30.622833,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Sherwood Dreams Resort, Antalya",
+        "latitude": 36.834444,
+        "longitude": 31.1545,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Sherwood Dreams Resort, Antalya",
+        "latitude": 36.834444,
+        "longitude": 31.154389,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Sherwood Dreams Resort, Antalya",
+        "latitude": 36.834447,
+        "longitude": 31.154443,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Sherwood Exclusive(Lara), Antalya",
+        "latitude": 36.856806,
+        "longitude": 30.882667,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Sherwood Exclusive(Lara), Antalya",
+        "latitude": 36.856861,
+        "longitude": 30.882667,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Sherwood Exclusive(Lara), Antalya",
+        "latitude": 36.85675,
+        "longitude": 30.882667,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Greenwood Suites Resort, Antalya",
+        "latitude": 36.860806,
+        "longitude": 30.888333,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Greenwood Suites Resort, Antalya",
+        "latitude": 36.86075,
+        "longitude": 30.888361,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Greenwood Suites Resort, Antalya",
+        "latitude": 36.860694,
+        "longitude": 30.888361,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Yasar Yalcın Petrol, Antalya",
+        "latitude": 37.122056,
+        "longitude": 30.227056,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Otomol, Antalya",
+        "latitude": 36.926306,
+        "longitude": 30.797194,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ESARJ",
+        "name": "Migros AVM, Antalya",
+        "latitude": 36.883333,
+        "longitude": 30.659694,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Antalya Merkez Ticaret Ve Sanayi Odası",
+        "latitude": 36.902424,
+        "longitude": 30.759642,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Isparta Ticaret ve Sanayi Odası",
+        "latitude": 37.801797,
+        "longitude": 30.537338,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Lavanta Tepesi Hotel-1",
+        "latitude": 37.687535,
+        "longitude": 30.333279,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Hilton Garden Inn Isparta",
+        "latitude": 37.781932,
+        "longitude": 30.564848,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Dağarcık",
+        "latitude": 37.514521,
+        "longitude": 30.534,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Bucak",
+        "latitude": 37.43053,
+        "longitude": 30.553097,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gazi Bulvarı",
+        "latitude": 36.901564,
+        "longitude": 30.669284,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Karacalar",
+        "latitude": 36.72937,
+        "longitude": 31.546788,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Demokrasi Kavşağı",
+        "latitude": 36.898861,
+        "longitude": 30.763168,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Altıntaş",
+        "latitude": 36.891898,
+        "longitude": 30.821402,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Meydan AVM",
+        "latitude": 37.764901,
+        "longitude": 30.551011,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Çeltikçi",
+        "latitude": 37.528046,
+        "longitude": 30.499929,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Isparta Çevreyolu",
+        "latitude": 37.776521,
+        "longitude": 30.570121,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Yeniköy-2",
+        "latitude": 37.006664,
+        "longitude": 30.630175,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Akdeniz Üniversitesi Teknokent Arge-2 Binası",
+        "latitude": 36.900762,
+        "longitude": 30.646864,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "MarkAntalya AVM",
+        "latitude": 36.892819,
+        "longitude": 30.704331,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Serik Çıkışı",
+        "latitude": 36.917697,
+        "longitude": 31.066777,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Korkuteli Petrol Ofisi Akaryakıt İstasyonu",
+        "latitude": 37.122287,
+        "longitude": 30.227225,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Lavanta",
+        "latitude": 37.912586,
+        "longitude": 30.307968,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "MAKÜ Diş Hekimliği Fakültesi",
+        "latitude": 37.715042,
+        "longitude": 30.271096,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Mall of Antalya AVM-1",
+        "latitude": 36.923034,
+        "longitude": 30.784215,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Togg Store Antalya",
+        "latitude": 36.915863,
+        "longitude": 30.666782,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Koşanlar Bosch Car Service",
+        "latitude": 36.974843,
+        "longitude": 30.780925,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Moon Suites Otel",
+        "latitude": 36.849456,
+        "longitude": 30.768004,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Döşemealtı",
+        "latitude": 37.012909,
+        "longitude": 30.632321,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Lavanta Tepesi Hotel-2",
+        "latitude": 37.687502,
+        "longitude": 30.333681,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Imecar Döşemealtı",
+        "latitude": 37.029006,
+        "longitude": 30.626605,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shell Yeniköy-1",
+        "latitude": 37.006673,
+        "longitude": 30.630164,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Çersan Kuruyemiş",
+        "latitude": 37.010577,
+        "longitude": 30.631221,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Mall of Antalya AVM-2",
+        "latitude": 36.922229,
+        "longitude": 30.784905,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Dünyagöz Antalya",
+        "latitude": 36.91838,
+        "longitude": 30.693611,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Karalar Opet Akaryakıt İstasyonu",
+        "latitude": 36.913893,
+        "longitude": 31.120305,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Allianz Konyaaltı",
+        "latitude": 36.883544,
+        "longitude": 30.629214,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Belek File",
+        "latitude": 36.864898,
+        "longitude": 31.05598,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Kepez Moda Düğün Salonu",
+        "latitude": 36.921396,
+        "longitude": 30.697503,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Sherwood Dreams Resort, Antalya",
+        "latitude": 36.834444,
+        "longitude": 31.1545,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Civil, Muratpaşa, Antalya",
+        "latitude": 36.86825,
+        "longitude": 30.735972,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Özkaymak Falez Otel, Antalya",
+        "latitude": 36.886974,
+        "longitude": 30.675648,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Greenwood Suites Resort, Antalya",
+        "latitude": 36.860806,
+        "longitude": 30.888333,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shemall, Antalya",
+        "latitude": 36.856972,
+        "longitude": 30.747389,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Otopratik (Ekspres Lastik), Antalya",
+        "latitude": 36.996944,
+        "longitude": 30.629,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.864028,
+        "longitude": 31.052278,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Yapaş Züccaciye, Isparta",
+        "latitude": 37.762583,
+        "longitude": 30.612583,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gloria Golf Resort Antalya",
+        "latitude": 36.842083,
+        "longitude": 31.110917,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Özkaymak Falez Otel, Antalya",
+        "latitude": 36.887111,
+        "longitude": 30.676639,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Iyaş Park AVM, Isparta",
+        "latitude": 37.781778,
+        "longitude": 30.545556,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Sherwood Exclusive(Lara), Antalya",
+        "latitude": 36.856861,
+        "longitude": 30.882667,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.864028,
+        "longitude": 31.052333,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Propratik (Ömer Çavuşoğlu), Antalya",
+        "latitude": 36.975583,
+        "longitude": 30.622833,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Sherwood Dreams Resort, Antalya",
+        "latitude": 36.834444,
+        "longitude": 31.154389,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gloria Golf Resort Antalya",
+        "latitude": 36.842111,
+        "longitude": 31.110861,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Otopratik (Ekspres Lastik), Antalya",
+        "latitude": 36.996806,
+        "longitude": 30.628917,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Ramada by Wyndham, Isparta",
+        "latitude": 37.774167,
+        "longitude": 30.549056,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Aytemiz, Yorgancıoğlu, Antalya",
+        "latitude": 37.086234,
+        "longitude": 30.203908,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gloria Sports Arena, Antalya",
+        "latitude": 36.864056,
+        "longitude": 31.052222,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Opel Balaban Otomotiv, Antalya",
+        "latitude": 36.843028,
+        "longitude": 30.597722,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Sherwood Exclusive(Lara), Antalya",
+        "latitude": 36.856806,
+        "longitude": 30.882667,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Gloria Verde Resort, Antalya",
+        "latitude": 36.846306,
+        "longitude": 31.088889,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Yasar Yalcın Petrol, Antalya",
+        "latitude": 37.122056,
+        "longitude": 30.227056,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "The Marmara, Antalya",
+        "latitude": 36.856806,
+        "longitude": 30.738917,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Greenwood Suites Resort, Antalya",
+        "latitude": 36.86075,
+        "longitude": 30.888361,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Alva Donna Beach Resort, Antalya",
+        "latitude": 36.820361,
+        "longitude": 31.291333,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Opel Mutsan Otomotiv, Isparta",
+        "latitude": 37.798,
+        "longitude": 30.577833,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Alva Donna Exclusive Hotel, Antalya",
+        "latitude": 36.835583,
+        "longitude": 31.144444,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Iyaş Bulvar Avm, Isparta",
+        "latitude": 37.798306,
+        "longitude": 30.5385,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Iyaş Park AVM, Isparta",
+        "latitude": 37.78175,
+        "longitude": 30.545583,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Aytemiz, Yorgancıoğlu, Antalya",
+        "latitude": 37.086222,
+        "longitude": 30.204,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Iyaş Bulvar Avm, Isparta",
+        "latitude": 37.798306,
+        "longitude": 30.538528,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Süvari Akayakıt, Kepez Varsak, Antalya",
+        "latitude": 36.984861,
+        "longitude": 30.714722,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Süvari Akaryakıt, Kepez Beşkonaklılar, Antalya",
+        "latitude": 36.926861,
+        "longitude": 30.743917,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Otomol, Antalya",
+        "latitude": 36.926306,
+        "longitude": 30.797194,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "The Land of Legends, Antalya",
+        "latitude": 36.880722,
+        "longitude": 31.003694,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Shemall, Antalya",
+        "latitude": 36.857278,
+        "longitude": 30.747028,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "TRUGO",
+        "name": "Antalya Mercedes Hasmer Bayi",
+        "latitude": 36.844872,
+        "longitude": 30.598904,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Evren Beach Resort Otel",
+        "latitude": 36.8083312201044,
+        "longitude": 31.343168020248413,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Sidemarin Otel",
+        "latitude": 36.79409629861972,
+        "longitude": 31.37144923210144,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Monachus Family Resort Sorgun",
+        "latitude": 36.754079,
+        "longitude": 31.448102,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "TUI Magic Life Masmavi",
+        "latitude": 36.85954472443624,
+        "longitude": 31.014457941055298,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Su Otel Antalya",
+        "latitude": 36.87879943847656,
+        "longitude": 30.662006378173828,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Titanic Deluxe Golf Belek",
+        "latitude": 36.86824035644531,
+        "longitude": 30.976001739501953,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Belconti Resort Otel",
+        "latitude": 36.8535484170908,
+        "longitude": 31.05137129468482,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Belek Beach Resort Hotel",
+        "latitude": 36.834152642073995,
+        "longitude": 31.160563230514526,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Side Premium Hotel",
+        "latitude": 36.81075668334961,
+        "longitude": 31.338205337524414,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Pegasos World",
+        "latitude": 36.75540725186855,
+        "longitude": 31.438075304031372,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Crown Plaza Otel",
+        "latitude": 36.85819698814754,
+        "longitude": 30.631041526794434,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Side Star Park Hotel",
+        "latitude": 36.77924728393555,
+        "longitude": 31.393081665039062,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Seaden Hotel ",
+        "latitude": 36.79277420043945,
+        "longitude": 31.37236213684082,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Tahtakale AVM Düzlerçamı Şubesi",
+        "latitude": 36.953482,
+        "longitude": 30.620521,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Bellis Deluxe Hotel",
+        "latitude": 36.85918045043945,
+        "longitude": 31.02399444580078,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Alibey Club Manavgat",
+        "latitude": 36.724202035066384,
+        "longitude": 31.540691256523132,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Dream World Hill",
+        "latitude": 36.79989754183006,
+        "longitude": 31.36898696422577,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "IC Green Palace Hotel",
+        "latitude": 36.85686111450195,
+        "longitude": 30.907114028930664,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Titanic Beach Lara",
+        "latitude": 36.855987548828125,
+        "longitude": 30.8612003326416,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Side Star Beach Hotel",
+        "latitude": 36.77778625488281,
+        "longitude": 31.391477584838867,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Alibey Resort Sorgun",
+        "latitude": 36.763501,
+        "longitude": 31.415619,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Limak Atlantis Deluxe Hotel Antalya",
+        "latitude": 36.84579086303711,
+        "longitude": 31.08715057373047,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Victory Be Mine - Volare Hotel",
+        "latitude": 36.824378,
+        "longitude": 31.303903,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Seçen Gross Serik",
+        "latitude": 36.91876368841143,
+        "longitude": 31.056214570999146,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Sensatori Barut Sorgun",
+        "latitude": 36.757753900754025,
+        "longitude": 31.42690122127533,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Vestel Kızılarık Şubesi",
+        "latitude": 36.902158,
+        "longitude": 30.716527,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Armas Bella Sun",
+        "latitude": 36.792797,
+        "longitude": 31.375326,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Ela Excellence Resort Belek",
+        "latitude": 36.855716061119175,
+        "longitude": 31.042580902576447,
+        "acConnectors": 4,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Özel Akdeniz Hastanesi Antalya",
+        "latitude": 36.77055740356445,
+        "longitude": 31.439918518066406,
+        "acConnectors": 1,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Botanik Göl Evleri",
+        "latitude": 37.38781504959574,
+        "longitude": 30.839858709432075,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Lal Sitesi",
+        "latitude": 36.855795895073925,
+        "longitude": 30.62712631884071,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Antalya Havalimanı Dış Hatlar",
+        "latitude": 36.91578674316406,
+        "longitude": 30.805192947387695,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Arum Barut Otel",
+        "latitude": 36.78951255475103,
+        "longitude": 31.376797556877136,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Antalya Migros AVM",
+        "latitude": 36.88336682413205,
+        "longitude": 30.659625730765214,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Melas Resort Hotel Antalya",
+        "latitude": 36.78709411621094,
+        "longitude": 31.379762649536133,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Isparta Centrum Garden",
+        "latitude": 37.78257751464844,
+        "longitude": 30.564542770385742,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 3
+    },
+    {
+        "provider": "ZES",
+        "name": "Antamotion Otomotiv Bosch Araç Servisi Antalya",
+        "latitude": 36.8986701965332,
+        "longitude": 30.76068878173828,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Yılmaz Mayış Opet",
+        "latitude": 37.518298,
+        "longitude": 30.526725,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 8
+    },
+    {
+        "provider": "ZES",
+        "name": "Lykia World Antalya",
+        "latitude": 36.8329306,
+        "longitude": 31.1885849,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Ünlüler İplik AŞ Isparta",
+        "latitude": 37.80998229980469,
+        "longitude": 30.5882568359375,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Mehmet Ülker Petrol",
+        "latitude": 36.892204,
+        "longitude": 31.236008,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Barut Goia",
+        "latitude": 36.76776,
+        "longitude": 31.4071,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Trendy Aspendos Beach",
+        "latitude": 36.81976663334321,
+        "longitude": 31.2901640418158,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "TUI Magic Life Belek",
+        "latitude": 36.860051192438945,
+        "longitude": 30.97599506378174,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Özel Antalya Koleji Lara Kampüs",
+        "latitude": 36.886953551695385,
+        "longitude": 30.74575960636139,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Limak Arcadia Sport Resort Hotel Antalya",
+        "latitude": 36.85282516479492,
+        "longitude": 31.05445098876953,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Akça Volvo Antalya",
+        "latitude": 37.030507,
+        "longitude": 30.626424,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Amara Premier Palace Otel",
+        "latitude": 36.74222428382445,
+        "longitude": 30.564356446266174,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Swandor Topkapı Palace Otel",
+        "latitude": 36.85672904451254,
+        "longitude": 30.916171073913574,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Havalimanı Petrol Antalya",
+        "latitude": 36.90751266479492,
+        "longitude": 30.81633949279785,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Belazur Resort Otel",
+        "latitude": 36.83410111955744,
+        "longitude": 31.15611344575882,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Spice Hotel & SPA Antalya",
+        "latitude": 36.851009368896484,
+        "longitude": 31.066009521484375,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Dream World Aqua",
+        "latitude": 36.81147878732485,
+        "longitude": 31.346304751059506,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Robinson Club Nobilis Golf Otel",
+        "latitude": 36.840590536762946,
+        "longitude": 31.120367646217346,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Adalya Petrol Antalya",
+        "latitude": 36.894710540771484,
+        "longitude": 30.715253829956055,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Burdur Bahçeşehir Koleji",
+        "latitude": 37.70929203713475,
+        "longitude": 30.226731203698947,
+        "acConnectors": 2,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Robinson Pamfilya",
+        "latitude": 36.758312616098266,
+        "longitude": 31.41218662261963,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Aypa Dinlenme Tesisleri Isparta",
+        "latitude": 37.90958023071289,
+        "longitude": 30.311241149902344,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Cullinan Belek Otel",
+        "latitude": 36.86113279083369,
+        "longitude": 30.97395658493042,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Titanic Mardan Palace",
+        "latitude": 36.85945129394531,
+        "longitude": 30.920223236083984,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Castival Otel",
+        "latitude": 36.80655951602358,
+        "longitude": 31.353365778923035,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "TUI BLUE Palm Garden",
+        "latitude": 36.726046586422044,
+        "longitude": 31.536169052124023,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Acanthus Cennet Barut Collection",
+        "latitude": 36.782222,
+        "longitude": 31.388769,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Başaran Scania Döşemealtı Antalya",
+        "latitude": 37.00046920776367,
+        "longitude": 30.62946128845215,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Limak Lara Delux Hotel ",
+        "latitude": 36.85649490356445,
+        "longitude": 30.88068962097168,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Ali Peçen Plaza",
+        "latitude": 36.900191,
+        "longitude": 30.7171414,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Lara Barut Collection Otel",
+        "latitude": 36.8574684,
+        "longitude": 30.8569757,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Sunis Blue Residence ",
+        "latitude": 36.86376190185547,
+        "longitude": 30.640573501586914,
+        "acConnectors": 6,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "TUI Magıc Life Jacaranda Hotel",
+        "latitude": 36.82287267675426,
+        "longitude": 31.282646656036377,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Durmuş Ali Çıkla Petrol Antalya ",
+        "latitude": 36.86134338378906,
+        "longitude": 30.786304473876953,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Kırcami Petrol Antalya",
+        "latitude": 36.875545501708984,
+        "longitude": 30.73356056213379,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Aktaş Otomotiv Bosch Car Servis",
+        "latitude": 37.808313296746675,
+        "longitude": 30.580369234085083,
+        "acConnectors": 3,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Şelale Petrol Antalya",
+        "latitude": 36.939913055881405,
+        "longitude": 30.710019171237946,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Mall of Antalya AVM",
+        "latitude": 36.92279815673828,
+        "longitude": 30.785425186157227,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Aska Lara Resort & SPA Antalya",
+        "latitude": 36.859928131103516,
+        "longitude": 30.89685821533203,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Akra Barut Hotel Antalya",
+        "latitude": 36.86408996582031,
+        "longitude": 30.726713180541992,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 4
+    },
+    {
+        "provider": "ZES",
+        "name": "Metro Market Antalya",
+        "latitude": 36.91277416111008,
+        "longitude": 30.769507884979248,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Linda Resort Hotel",
+        "latitude": 36.75848452769314,
+        "longitude": 31.451317369937897,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Euphoria Palm Beach Resort",
+        "latitude": 36.73377688147297,
+        "longitude": 31.525214910507202,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Armas Life Belek",
+        "latitude": 36.834392,
+        "longitude": 31.149489,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Baia Lara Hotel",
+        "latitude": 36.85612106323242,
+        "longitude": 30.88840675354004,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Gölpark Restoran",
+        "latitude": 37.318246734415624,
+        "longitude": 30.814131796360016,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Tahtakale AVM Yeşilbayır Şubesi",
+        "latitude": 36.981057,
+        "longitude": 30.606387,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Belek Güral Premier Hotel ",
+        "latitude": 36.85255813598633,
+        "longitude": 31.059755325317383,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Baia Kemer Club",
+        "latitude": 36.70683288574219,
+        "longitude": 30.5673885345459,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Miramare Beach Hotel",
+        "latitude": 36.803031018386555,
+        "longitude": 31.353690326213837,
+        "acConnectors": 4,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Erdem Petrol Antalya",
+        "latitude": 36.8338757,
+        "longitude": 30.5959478,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 4
+    },
+    {
+        "provider": "ZES",
+        "name": "Calyptus Otel",
+        "latitude": 36.79903198454629,
+        "longitude": 31.370238083631644,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Özel Antalya Koleji Konyaaltı Kampüsü",
+        "latitude": 36.84669304894143,
+        "longitude": 30.61543107032776,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Reo Hotel & Spa",
+        "latitude": 36.87393582479287,
+        "longitude": 30.65583166029406,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Kumköy Beach Resort Hotel",
+        "latitude": 36.800148826035496,
+        "longitude": 31.362420916557312,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Demirkapı Dinlenme Tesisleri",
+        "latitude": 37.57657255837903,
+        "longitude": 31.564042568206787,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Iyaş Bulvar AVM Isparta",
+        "latitude": 37.79829406738281,
+        "longitude": 30.538185119628906,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Levent Köklü Termo Petrol Isparta",
+        "latitude": 37.698184967041016,
+        "longitude": 30.87554931640625,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Side Star Resort Hotel Antalya",
+        "latitude": 36.821102142333984,
+        "longitude": 31.284334182739258,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Berry Blue Hotel",
+        "latitude": 36.7574727,
+        "longitude": 31.445153,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Saklı Göl Evleri",
+        "latitude": 37.37929,
+        "longitude": 30.831749,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Robinson Club Golf Hotel",
+        "latitude": 36.849641,
+        "longitude": 31.10871,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Otogar BP",
+        "latitude": 36.9111785900749,
+        "longitude": 30.66481590270996,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Denizimpark",
+        "latitude": 36.862164466142126,
+        "longitude": 30.818888810116043,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Antalya Terracity AVM",
+        "latitude": 36.852561950683594,
+        "longitude": 30.757394790649414,
+        "acConnectors": 3,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Barut Hemera Otel",
+        "latitude": 36.788146,
+        "longitude": 31.381132,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Miracle Resort Hotel",
+        "latitude": 36.85547139786299,
+        "longitude": 30.86013972759247,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Side Star Elegance Hotel Antalya",
+        "latitude": 36.7857551574707,
+        "longitude": 31.385475158691406,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Trendy Lara Otel",
+        "latitude": 36.861519453258225,
+        "longitude": 30.922406305860612,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Aslanlar Antalya Petrol",
+        "latitude": 37.11708655368934,
+        "longitude": 30.597240328788757,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "IC Hotels Santai Family Resort ",
+        "latitude": 36.86058807373047,
+        "longitude": 30.987749099731445,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Commodore Elite Suites & Spa Antalya",
+        "latitude": 36.808528900146484,
+        "longitude": 31.33890724182129,
+        "acConnectors": 0,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Iyaş Park AVM",
+        "latitude": 37.781513,
+        "longitude": 30.544702,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Forsamall AVM Antalya",
+        "latitude": 36.870162681532335,
+        "longitude": 31.016077995300293,
+        "acConnectors": 1,
+        "dcConnectors": 6,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Novamall Manavgat AVM",
+        "latitude": 36.780906677246094,
+        "longitude": 31.42530632019043,
+        "acConnectors": 1,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Dream World Palace",
+        "latitude": 36.821663857041486,
+        "longitude": 31.300823986530304,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Amara Family Resort Hotel",
+        "latitude": 36.754571294585865,
+        "longitude": 31.44895702600479,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Gölbaşı Dinlenme Tesisleri",
+        "latitude": 37.31318256447648,
+        "longitude": 30.813412964344025,
+        "acConnectors": 0,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Sky Kamer Hotel Antalya",
+        "latitude": 36.887630462646484,
+        "longitude": 30.700916290283203,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Concorde Deluxe Resort ",
+        "latitude": 36.856101989746094,
+        "longitude": 30.878143310546875,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Melas Lara Hotel Antalya",
+        "latitude": 36.8570671081543,
+        "longitude": 30.891910552978516,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Armas Global",
+        "latitude": 36.889794,
+        "longitude": 30.741725,
+        "acConnectors": 4,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Trendy Palm Beach",
+        "latitude": 36.79541079874101,
+        "longitude": 31.36894941329956,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Monachus Hotel & SPA",
+        "latitude": 36.80928255459084,
+        "longitude": 31.339450478553772,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Elita Otel",
+        "latitude": 36.73288474195637,
+        "longitude": 31.526849374148032,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "IC Hotels Airport",
+        "latitude": 36.927913665771484,
+        "longitude": 30.808921813964844,
+        "acConnectors": 1,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Turgut Otomotiv Plaza",
+        "latitude": 36.917664184850494,
+        "longitude": 30.645378163311626,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Markka Genetik",
+        "latitude": 37.064511,
+        "longitude": 30.627359,
+        "acConnectors": 0,
+        "dcConnectors": 1,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Miramare Queen Hotel",
+        "latitude": 36.8040815197532,
+        "longitude": 31.353450958429203,
+        "acConnectors": 4,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Turgut Otomotiv Bosch Araç Servisi Antalya",
+        "latitude": 36.91768264770508,
+        "longitude": 30.641042709350586,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Antalya Aquarium",
+        "latitude": 36.878238472099454,
+        "longitude": 30.660489604608234,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 2
+    },
+    {
+        "provider": "ZES",
+        "name": "Antalya Aktürk Otomotiv",
+        "latitude": 36.9121208190918,
+        "longitude": 30.77592658996582,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Grand Şeker Otel",
+        "latitude": 36.810461505758106,
+        "longitude": 31.339820623397827,
+        "acConnectors": 0,
+        "dcConnectors": 4,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Akkapark AVM Antalya",
+        "latitude": 36.85687255859375,
+        "longitude": 30.8695125579834,
+        "acConnectors": 1,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Seaden Sea Planet Resort & SPA",
+        "latitude": 36.7105598449707,
+        "longitude": 31.567554473876953,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Metro Market Konyaaltı",
+        "latitude": 36.84142995662909,
+        "longitude": 30.593720678594423,
+        "acConnectors": 1,
+        "dcConnectors": 2,
+        "hpcConnectors": 0
+    },
+    {
+        "provider": "ZES",
+        "name": "Aksu Petrol Antalya",
+        "latitude": 36.96097183227539,
+        "longitude": 30.82509994506836,
+        "acConnectors": 2,
+        "dcConnectors": 0,
+        "hpcConnectors": 0
+    }
+]
