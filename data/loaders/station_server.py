@@ -12,7 +12,7 @@ from mcp.server.stdio import stdio_server
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 INPUT_FILE = os.path.abspath(
-    os.path.join(BASE_DIR, "..", "processed", "merged_stations.json")
+    os.path.join(BASE_DIR, "..", "processed", "all_stations.json")
 )
 
 
@@ -64,41 +64,50 @@ def get_route_bbox_from_api(start, end):
 
 
 # Check stations and filter
-def filter_stations_logic(start_city, end_city):
-    start = get_counrty_coordinates(start_city)
-    end = get_counrty_coordinates(end_city)
-    print(f"Json dosyası aranıyor: {INPUT_FILE}")
-    print(f"Dosya mevcut mu? {'Evet' if os.path.exists(INPUT_FILE) else 'Hayır'}")
+def filter_stations_logic(waypoints: list[str]):
+    # Her şehrin koordinatını al
+    coords = []
+    for city in waypoints:
+        coord = get_counrty_coordinates(city)
+        if not coord:
+            print(f"Bulunamadı: {city}")
+            continue
+        coords.append((city, coord))
 
-    if not start or not end:
-        print("Could not find coordinates for the specified cities.")
-        return
-
-    bbox = get_route_bbox_from_api(start, end)
-
-    if not bbox:
-        print("Could not retrieve route data.")
-        return
+    if len(coords) < 2:
+        return json.dumps([])
 
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        stations = json.load(f)
+        all_stations = json.load(f)
 
-    filtered_stations = []
+    filtered = {}  # deduplikasyon için dict
 
-    for station in stations:
-        lat = station.get("latitude")
-        lon = station.get("longitude")
+    # Her iki şehir arası için ayrı bbox
+    for i in range(len(coords) - 1):
+        city_a, start = coords[i]
+        city_b, end = coords[i + 1]
 
-        if lat is None or lon is None:
+        bbox = get_route_bbox_from_api(start, end)
+        if not bbox:
+            print(f"Rota alınamadı: {city_a} → {city_b}")
             continue
 
-        if (
-            bbox["min_lat"] <= lat <= bbox["max_lat"]
-            and bbox["min_lon"] <= lon <= bbox["max_lon"]
-        ):
-            filtered_stations.append(station)
+        print(f"{city_a} → {city_b} taranıyor...")
 
-    return json.dumps(filtered_stations, ensure_ascii=False)
+        for station in all_stations:
+            lat = station.get("latitude")
+            lon = station.get("longitude")
+            if lat is None or lon is None:
+                continue
+
+            if (
+                bbox["min_lat"] <= lat <= bbox["max_lat"]
+                and bbox["min_lon"] <= lon <= bbox["max_lon"]
+            ):
+                key = station.get("name") or f"{lat},{lon}"
+                filtered[key] = station
+
+    return json.dumps(list(filtered.values()), ensure_ascii=False)
 
 
 # --- MCP Server to save filtered stations ---
@@ -115,37 +124,29 @@ async def handle_list_tools() -> list[types.Tool]:
             inputSchema={
                 "type": "object",
                 "properties": {
-                    "start_city": {
-                        "type": "string",
-                        "description": "Başlangıç şehri (Örn: Isparta)",
-                    },
-                    "end_city": {
-                        "type": "string",
-                        "description": "Bitiş şehri (Örn: İzmir)",
-                    },
+                    "waypoints": {
+                        "type": "array",
+                        "items": {"type": "string"},
+                        "description": "Sıralı durak listesi (Örn: ['Isparta', 'Antalya', 'Ankara'])",
+                    }
                 },
-                "required": ["start_city", "end_city"],
+                "required": ["waypoints"],
             },
         )
     ]
 
 
 @server.call_tool()
-async def handle_call_tool(
-    name: str, arguments: dict | None
-) -> list[types.TextContent | types.ImageContent | types.EmbeddedResource]:
+async def handle_call_tool(name, arguments):
     if name == "get_stations_on_route":
-        start = arguments.get("start_city")
-        end = arguments.get("end_city")
+        waypoints = arguments.get("waypoints", [])
 
-        result_json = filter_stations_logic(start, end)
+        result_json = filter_stations_logic(waypoints)
 
-        # Log
         stations = json.loads(result_json)
-        print(f"Found {len(stations)} stations between {start} and {end}.")
+        print(f"✅ {len(waypoints)} durak, {len(stations)} istasyon bulundu.")
 
         return [types.TextContent(type="text", text=result_json)]
-
     raise ValueError(f"Unknown tool: {name}")
 
 

@@ -37,7 +37,11 @@ class OpenRouterClient:
         self.history = [{"role": "system", "content": SYSTEM_PROMPT}]
 
     async def chat_with_mcp(
-        self, user_message, mcp_script_path, model="x-ai/grok-4.1-fast"
+        self,
+        user_message,
+        mcp_script_path,
+        model="qwen/qwen3-next-80b-a3b-instruct:free",
+        vehicle_info=None,
     ):
         """
         Bu fonksiyon:
@@ -50,7 +54,22 @@ class OpenRouterClient:
         # Geçmişi kopyala ve yeni mesajı ekle
         # Not: self.history zaten bir liste olduğu için content içine koymak yerine listeye ekliyoruz.
         messages = list(self.history)
-        messages.append({"role": "user", "content": user_message})
+
+        # Araç bilgisi varsa user mesajına ekle
+
+        if vehicle_info:
+            enhanced_message = f"""
+    Kullanıcı isteği: {user_message}
+    
+    Araç Bilgileri:
+    - Marka: {vehicle_info.get("brand", "Bilinmiyor")}
+    - Model: {vehicle_info.get("model", "Bilinmiyor")}
+    - Batarya: {vehicle_info.get("battery_kwh", 0)} kWh
+    - Menzil: {vehicle_info.get("range_km", 0)} km
+    """
+            messages.append({"role": "user", "content": enhanced_message})
+        else:
+            messages.append({"role": "user", "content": user_message})
 
         server_params = StdioServerParameters(
             command="python", args=[mcp_script_path], env=None
@@ -116,7 +135,9 @@ class OpenRouterClient:
                             "✅ Sonuçlar modele iletiliyor, nihai cevap hazırlanıyor..."
                         )
                         final_response = self.client.chat.completions.create(
-                            model=model, messages=messages
+                            model=model,
+                            messages=messages,
+                            response_format={"type": "json_object"},
                         )
 
                         assistant_response = final_response.choices[0].message.content
@@ -132,6 +153,9 @@ class OpenRouterClient:
 
         except Exception as e:
             print(f"❌ Hata: {str(e)}")
+            import traceback
+
+            traceback.print_exc()
             return f"Bir hata oluştu: {str(e)}"
 
     # Modeli temizler ve başlangıç durumuna döner

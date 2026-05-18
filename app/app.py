@@ -1,12 +1,27 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+from flask_jwt_extended import JWTManager
+from routes.auth import auth_bp
+from routes.profile import profile_bp
+from routes.favorites import favorites_bp
 from services.model import OpenRouterClient
+from datetime import timedelta
 import asyncio
+import os
 
 # NOTE model tek istekte 0.003$ harcadı :)
 
 app = Flask(__name__)
 CORS(app)
+
+app.config["JWT_SECRET_KEY"] = os.getenv("JWT_SECRET_KEY", "degistir-bunu")
+app.config["JWT_ACCESS_TOKEN_EXPIRES"] = timedelta(days=30)
+JWTManager(app)
+
+app.register_blueprint(auth_bp)
+app.register_blueprint(profile_bp)
+app.register_blueprint(favorites_bp)
+
 
 # Launch a client
 client = OpenRouterClient()
@@ -24,6 +39,7 @@ def home():
 def chat():
     data = request.get_json()
     user_message = data.get("message", "")
+    vehicle_info = data.get("vehicle", None)
 
     if not user_message:
         return jsonify({"error": "No message provided"}), 400
@@ -37,7 +53,8 @@ def chat():
             client.chat_with_mcp(
                 user_message=user_message,
                 mcp_script_path=MCP_SCRIPT_PATH,
-                model="x-ai/grok-4.1-fast",
+                model="qwen/qwen3-next-80b-a3b-instruct:free",
+                vehicle_info=vehicle_info,
             )
         )
         print(f"Model response: {response_text}")
@@ -50,4 +67,4 @@ def chat():
 
 if __name__ == "__main__":
     print("Starting OpenRouter API server...")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)

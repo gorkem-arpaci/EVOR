@@ -1,0 +1,17 @@
+flask
+flask-cors
+flask-jwt-extended
+bcrypt
+psycopg2-binary
+sqlalchemy[asyncio]
+asyncpg
+alembic
+redis
+celery
+openai
+mcp
+pydantic-settings
+resend
+geopy
+python-jose[cryptography]
+passlib[bcrypt]

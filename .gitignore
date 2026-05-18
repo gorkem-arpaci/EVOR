@@ -28,6 +28,22 @@ wheels/
 *.egg-info/
 *.egg
 
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / lint
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# PEP 582 packages
+__pypackages__/
+
 # Jupyter Notebook
 .ipynb_checkpoints/
 *.ipynb_checkpoints
@@ -40,13 +56,19 @@ wheels/
 
 # uv specific
 .uv/
-uv.lock
 
 # Build outputs
 dist/
 build/
 .next/
 out/
+
+# Node.js / TypeScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
 # ===========================
 # Operating System
@@ -80,6 +102,18 @@ Desktop.ini
 *.log
 *.sqlite
 *.db
+
+# Data files
+*.csv
+
+# Nginx TLS secrets
+nginx/ssl/*.key
+nginx/ssl/*.pem
+nginx/ssl/*.crt
+nginx/ssl/*.p12
+nginx/ssl/*.pfx
+nginx/ssl/*.csr
+nginx/ssl/*.srl
 
 # ===========================
 # Other
