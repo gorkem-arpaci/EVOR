@@ -4,6 +4,7 @@ from flask_jwt_extended import JWTManager
 from routes.auth import auth_bp
 from routes.profile import profile_bp
 from routes.favorites import favorites_bp
+from routes.journey import journey_bp
 from services.model import OpenRouterClient
 from datetime import timedelta
 import asyncio
@@ -21,6 +22,7 @@ JWTManager(app)
 app.register_blueprint(auth_bp)
 app.register_blueprint(profile_bp)
 app.register_blueprint(favorites_bp)
+app.register_blueprint(journey_bp)
 
 
 # Launch a client
@@ -53,7 +55,7 @@ def chat():
             client.chat_with_mcp(
                 user_message=user_message,
                 mcp_script_path=MCP_SCRIPT_PATH,
-                model="qwen/qwen3-next-80b-a3b-instruct:free",
+                model="x-ai/grok-4.1-fast",
                 vehicle_info=vehicle_info,
             )
         )

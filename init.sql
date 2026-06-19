@@ -26,6 +26,9 @@ CREATE TABLE charging_detail (
     profile_id UUID REFERENCES profile(id),
     station_key TEXT,
     price FLOAT,
+    energy_kwh FLOAT,
+    duration_min INTEGER,
+    connector_type TEXT,
     total_time TIMESTAMP
 );
 
@@ -44,4 +47,43 @@ CREATE TABLE favorite_stations (
     station_key TEXT NOT NULL,
     added_at TIMESTAMP DEFAULT NOW(),
     UNIQUE(profile_id, station_key)
+);
+
+CREATE TABLE journey (
+    id          UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    user_id     UUID NOT NULL REFERENCES profile(id) ON DELETE CASCADE,
+    vehicle_id  UUID,
+    start_location          TEXT NOT NULL,
+    end_location            TEXT NOT NULL,
+    start_time              VARCHAR(50),
+    season                  VARCHAR(50),
+    weather_conditions      VARCHAR(100),
+    total_distance_km       INTEGER,
+    total_driving_time_min  INTEGER,
+    total_charging_time_min INTEGER,
+    total_trip_time_min     INTEGER,
+    total_energy_needed_kwh DOUBLE PRECISION,
+    starting_soc_percent    INTEGER,
+    ending_soc_percent      INTEGER,
+    created_at              TIMESTAMP DEFAULT NOW()
+);
+
+CREATE TABLE journey_stop (
+    id              UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    journey_id      UUID NOT NULL REFERENCES journey(id) ON DELETE CASCADE,
+    stop_number     INTEGER NOT NULL,
+    station_name    VARCHAR(255),
+    provider        VARCHAR(100),
+    latitude        DOUBLE PRECISION,
+    longitude       DOUBLE PRECISION,
+    connector_type  VARCHAR(50),
+    estimated_power_kw DOUBLE PRECISION,
+    distance_from_start_km DOUBLE PRECISION,
+    arrival_time    VARCHAR(50),
+    arrival_soc_percent INTEGER,
+    charge_to_percent INTEGER,
+    energy_added_kwh DOUBLE PRECISION,
+    charge_time_min INTEGER,
+    departure_time  VARCHAR(50),
+    reason          TEXT
 );

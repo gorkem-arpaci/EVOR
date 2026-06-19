@@ -40,7 +40,7 @@ class OpenRouterClient:
         self,
         user_message,
         mcp_script_path,
-        model="qwen/qwen3-next-80b-a3b-instruct:free",
+        model="x-ai/grok-4.1-fast",
         vehicle_info=None,
     ):
         """

@@ -3,6 +3,8 @@ from flask_jwt_extended import jwt_required, get_jwt_identity
 import psycopg2
 import os
 
+from utils.station_lookup import get_station_info  # ← tek ekleme
+
 profile_bp = Blueprint("profile", __name__, url_prefix="/profile")
 
 
@@ -24,7 +26,6 @@ def get_profile():
         conn = get_db()
         cur = conn.cursor()
 
-        # Profil
         cur.execute(
             "SELECT id, name, surname, email, address, phone FROM profile WHERE id = %s",
             (user_id,),
@@ -36,7 +37,6 @@ def get_profile():
             conn.close()
             return jsonify({"msg": "Profile not found"}), 404
 
-        # Araçlar — cur kapatmadan önce yap
         cur.execute(
             """SELECT id, car_key, plate, is_default, added_at
                FROM user_cars WHERE profile_id = %s
@@ -45,7 +45,6 @@ def get_profile():
         )
         cars = cur.fetchall()
 
-        # Şimdi kapat
         cur.close()
         conn.close()
 
@@ -73,7 +72,7 @@ def get_profile():
     except Exception as e:
         if conn is not None:
             conn.close()
-        print(f"🔴 Get profile error: {type(e).__name__}: {e}")
+        print(f"Get profile error: {type(e).__name__}: {e}")
         return jsonify({"error": str(e)}), 500
 
 
@@ -99,9 +98,15 @@ def update_profile():
         cur = conn.cursor()
 
         cur.execute(
-            """UPDATE profile SET name = COALESCE(%s, name), surname = COALESCE(%s, surname), address = COALESCE(%s, address), phone = COALESCE(%s, phone), home_lat = COALESCE(%s, home_lat), home_lng = COALESCE(%s, home_lng)
-                   WHERE id = %s
-                   RETURNING id, name, surname, email, address, phone""",
+            """UPDATE profile
+               SET name     = COALESCE(%s, name),
+                   surname  = COALESCE(%s, surname),
+                   address  = COALESCE(%s, address),
+                   phone    = COALESCE(%s, phone),
+                   home_lat = COALESCE(%s, home_lat),
+                   home_lng = COALESCE(%s, home_lng)
+               WHERE id = %s
+               RETURNING id, name, surname, email, address, phone""",
             (name, surname, address, phone, lat, lon, user_id),
         )
 
@@ -134,7 +139,7 @@ def update_profile():
         import traceback
 
         traceback.print_exc()
-        print(f"🔴 Update profile error: {type(e).__name__}: {e}")
+        print(f"Update profile error: {type(e).__name__}: {e}")
         return jsonify({"error": str(e)}), 500
 
 
@@ -145,7 +150,7 @@ def add_car():
     data = request.get_json()
 
     car_key = data.get("car_key")
-    plate = data.get("plate")  # opsiyonel
+    plate = data.get("plate")
 
     if not car_key:
         return jsonify({"error": "car_key gerekli"}), 400
@@ -155,10 +160,9 @@ def add_car():
         conn = get_db()
         cur = conn.cursor()
 
-        # Kullanıcının hiç aracı var mı?
         cur.execute("SELECT COUNT(*) FROM user_cars WHERE profile_id = %s", (user_id,))
         count = cur.fetchone()[0]
-        is_default = count == 0  # İlk araçsa varsayılan yap
+        is_default = count == 0
 
         cur.execute(
             """INSERT INTO user_cars (profile_id, car_key, plate, is_default)
@@ -185,7 +189,7 @@ def add_car():
         if conn:
             conn.rollback()
             conn.close()
-        print(f"🔴 Add car error: {type(e).__name__}: {e}")
+        print(f"Add car error: {type(e).__name__}: {e}")
         return jsonify({"error": str(e)}), 500
 
 
@@ -199,7 +203,6 @@ def delete_car(car_id):
         conn = get_db()
         cur = conn.cursor()
 
-        # Araç bu kullanıcıya ait mi ve varsayılan mı kontrol et
         cur.execute(
             "SELECT is_default FROM user_cars WHERE id = %s AND profile_id = %s",
             (car_id, user_id),
@@ -213,12 +216,10 @@ def delete_car(car_id):
 
         was_default = row[0]
 
-        # Sil
         cur.execute(
             "DELETE FROM user_cars WHERE id = %s AND profile_id = %s", (car_id, user_id)
         )
 
-        # Silinen varsayılansa kalan ilk aracı varsayılan yap
         if was_default:
             cur.execute(
                 """UPDATE user_cars SET is_default = true
@@ -240,7 +241,7 @@ def delete_car(car_id):
         if conn:
             conn.rollback()
             conn.close()
-        print(f"🔴 Delete car error: {type(e).__name__}: {e}")
+        print(f"Delete car error: {type(e).__name__}: {e}")
         return jsonify({"error": str(e)}), 500
 
 
@@ -254,7 +255,6 @@ def set_default_car(car_id):
         conn = get_db()
         cur = conn.cursor()
 
-        # Araç bu kullanıcıya ait mi?
         cur.execute(
             "SELECT id FROM user_cars WHERE id = %s AND profile_id = %s",
             (car_id, user_id),
@@ -264,12 +264,9 @@ def set_default_car(car_id):
             conn.close()
             return jsonify({"error": "Araç bulunamadı"}), 404
 
-        # Önce hepsini false yap
         cur.execute(
             "UPDATE user_cars SET is_default = false WHERE profile_id = %s", (user_id,)
         )
-
-        # Seçileni true yap
         cur.execute("UPDATE user_cars SET is_default = true WHERE id = %s", (car_id,))
 
         conn.commit()
@@ -281,5 +278,48 @@ def set_default_car(car_id):
         if conn:
             conn.rollback()
             conn.close()
-        print(f"🔴 Set default car error: {type(e).__name__}: {e}")
+        print(f"Set default car error: {type(e).__name__}: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
+# MARK: - Geçmiş şarj dolumların listesi
+@profile_bp.route("/charging-history", methods=["GET"])
+@jwt_required()
+def get_charging_history():
+    user_id = get_jwt_identity()
+    conn = None
+    try:
+        conn = get_db()
+        cur = conn.cursor()
+        cur.execute(
+            """SELECT id, station_key, price, energy_kwh, duration_min, connector_type, total_time
+               FROM charging_detail
+               WHERE profile_id = %s
+               ORDER BY total_time DESC""",
+            (user_id,),
+        )
+        rows = cur.fetchall()
+        cur.close()
+        conn.close()
+
+        return jsonify(
+            [
+                {
+                    "id": str(r[0]),
+                    "station_key": r[1],
+                    **get_station_info(r[1]),  # station_name + address
+                    "price": r[2],
+                    "energy_kwh": r[3],
+                    "duration_min": r[4],
+                    "connector_type": r[5],
+                    "total_time": str(r[6]),
+                }
+                for r in rows
+            ]
+        ), 200
+
+    except Exception as e:
+        if conn:
+            conn.close()
+        print(f"Charging history error: {e}")
         return jsonify({"error": str(e)}), 500
