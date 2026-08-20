@@ -1,11 +1,11 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from flask_jwt_extended import JWTManager
-from routes.auth import auth_bp
-from routes.profile import profile_bp
-from routes.favorites import favorites_bp
-from routes.journey import journey_bp
-from services.model import OpenRouterClient
+from interfaces.http.auth import auth_bp
+from interfaces.http.profile import profile_bp
+from interfaces.http.favorites import favorites_bp
+from interfaces.http.journey import journey_bp
+from infrastructure.openrouter.client import OpenRouterClient
 from datetime import timedelta
 import asyncio
 import os

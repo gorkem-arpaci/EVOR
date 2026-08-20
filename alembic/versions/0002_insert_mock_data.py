@@ -1,3 +1,20 @@
+"""Insert mock data from mock_data.sql
+
+This migration inserts example users, cars, charging_detail and journeys
+as provided in `mock_data.sql`. The downgrade removes the inserted rows
+by deleting records for the seeded user UUIDs.
+"""
+from alembic import op
+
+# revision identifiers, used by Alembic.
+revision = "0002_insert_mock_data"
+down_revision = "0001_initial_schema"
+branch_labels = None
+depends_on = None
+
+
+def upgrade() -> None:
+    sql = '''
 DO $$
 DECLARE
     usr_ali    UUID := '33333333-0000-0000-0000-000000000001';
@@ -6,9 +23,12 @@ DECLARE
 BEGIN
 
 INSERT INTO profile (id, name, surname, email, password, address, phone, home_lat, home_lng) VALUES
-(usr_ali,    'Ali',    'Yılmaz', 'ali@example.com',    '$2b$12$mHwHtYwPr/6Iy7WuCbXCleGYkbMZdFx0mspqMBtXknpsHV.QRKpCO', 'Kadıköy, İstanbul',  '555-123-4567', 40.9927,  29.0277),
-(usr_ayse,   'Ayşe',  'Kaya',   'ayse@example.com',   '$2b$12$d6nMh2.jVNZPvFCBgApMr.PK3Px6uME2q2KzaWJHmtz9fFVftfQNu', 'Çankaya, Ankara',    '555-987-6543', 39.9032,  32.8597),
-(usr_mehmet, 'Mehmet','Demir',  'mehmet@example.com', '$2b$12$3KsewXPgweKBjIpj24oqSeX6pk9rtdD6mCwsU.x1O6bJL9UErADqO', 'Bornova, İzmir',     NULL,           38.4611,  27.2183);
+-- Ali şifre: EvorAdmin2026!
+(usr_ali,    'Ali',    'Yılmaz', 'ali@example.com',    '$2b$12$X1WkJ82zITiNu0yT0VGlGuGSd3HaNUcF3GckXkEw0I9dhnf3.dKUa', 'Kadıköy, İstanbul',  '555-123-4567', 40.9927,  29.0277),
+-- Ayşe şifre: EvorTestUser1*
+(usr_ayse,   'Ayşe',  'Kaya',   'ayse@example.com',   '$2b$12$t7FpZ1aw5H5Ay.dfPxK.0eewl7b9EOyIpfRLdV4KExrG1aKAMFlgm', 'Çankaya, Ankara',    '555-987-6543', 39.9032,  32.8597),
+-- Mehmet şifre: MockAccount2026#
+(usr_mehmet, 'Mehmet','Demir',  'mehmet@example.com', '$2b$12$3OqYFi7OjNnISBWEIz9J9.e6Qv2ii7fJAFp7l2an.1TF5ZkkQUEOS', 'Bornova, İzmir',     NULL,           38.4611,  27.2183);
 
 -- Ali: Tesla Model 3 (varsayılan)
 INSERT INTO user_cars (id, profile_id, car_key, plate, is_default) VALUES
@@ -101,4 +121,67 @@ INSERT INTO journey_stop (journey_id, stop_number, station_name, provider, latit
 ('cccccccc-0000-0000-0000-000000000003', 2, 'Gebze ZES HPC',   'ZES',   40.8026, 29.4313, 'CCS2', 180, 390, '2026-04-01 13:10', 32, 78, 27.4, 20, '2026-04-01 13:30', 'İstanbul girişi öncesi'),
 ('cccccccc-0000-0000-0000-000000000003', 3, 'Kadıköy EŞARJ DC','EŞARJ', 40.9833, 29.0333, 'CCS2',  60, 480, '2026-04-01 15:00', 20, 60, 22.6, 35, '2026-04-01 15:35', 'Final şarj');
 
+'''
+    op.execute(sql)
 
+
+def downgrade() -> None:
+    # Remove inserted mock data for the seeded users
+    usr_ids = (
+        '33333333-0000-0000-0000-000000000001',
+        '33333333-0000-0000-0000-000000000002',
+        '33333333-0000-0000-0000-000000000003',
+    )
+    # Delete journey stops for seeded journeys
+    op.execute("""
+DELETE FROM journey_stop WHERE journey_id IN (
+  'aaaaaaaa-0000-0000-0000-000000000001',
+  'aaaaaaaa-0000-0000-0000-000000000002',
+  'bbbbbbbb-0000-0000-0000-000000000001',
+  'bbbbbbbb-0000-0000-0000-000000000002',
+  'bbbbbbbb-0000-0000-0000-000000000003',
+  'bbbbbbbb-0000-0000-0000-000000000004',
+  'cccccccc-0000-0000-0000-000000000001',
+  'cccccccc-0000-0000-0000-000000000002',
+  'cccccccc-0000-0000-0000-000000000003'
+);
+""")
+
+    # Delete journeys
+    op.execute("""
+DELETE FROM journey WHERE id IN (
+  'aaaaaaaa-0000-0000-0000-000000000001',
+  'aaaaaaaa-0000-0000-0000-000000000002',
+  'bbbbbbbb-0000-0000-0000-000000000001',
+  'bbbbbbbb-0000-0000-0000-000000000002',
+  'bbbbbbbb-0000-0000-0000-000000000003',
+  'bbbbbbbb-0000-0000-0000-000000000004',
+  'cccccccc-0000-0000-0000-000000000001',
+  'cccccccc-0000-0000-0000-000000000002',
+  'cccccccc-0000-0000-0000-000000000003'
+);
+""")
+
+    # Delete charging details and user cars by profile id
+    op.execute("""
+DELETE FROM charging_detail WHERE profile_id IN (
+  '33333333-0000-0000-0000-000000000001',
+  '33333333-0000-0000-0000-000000000002',
+  '33333333-0000-0000-0000-000000000003'
+);
+DELETE FROM user_cars WHERE profile_id IN (
+  '33333333-0000-0000-0000-000000000001',
+  '33333333-0000-0000-0000-000000000002',
+  '33333333-0000-0000-0000-000000000003'
+);
+DELETE FROM favorite_stations WHERE profile_id IN (
+  '33333333-0000-0000-0000-000000000001',
+  '33333333-0000-0000-0000-000000000002',
+  '33333333-0000-0000-0000-000000000003'
+);
+DELETE FROM profile WHERE id IN (
+  '33333333-0000-0000-0000-000000000001',
+  '33333333-0000-0000-0000-000000000002',
+  '33333333-0000-0000-0000-000000000003'
+);
+""")

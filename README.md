@@ -54,3 +54,33 @@ Bu proje, modern iOS geliştirme standartları ve yeni nesil yapay zeka entegras
 * **Diller:** Python, TypeScript
 * **AI Engine:** Grok 4.1 API (Rota Optimizasyon Motoru)
 * **Veri İşleme:** JSON tabanlı veri akışı
+
+---
+
+## Database & Migrations
+
+This project uses Alembic for schema and seed migrations. Prefer the Alembic-first workflow in development and CI/CD.
+
+Quick setup:
+
+```bash
+# create venv if needed
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install -r requirements.txt
+
+# set your DATABASE_URL e.g. postgres with psycopg2
+export DATABASE_URL="postgresql+psycopg2://user:pass@host:5432/evor"
+
+# run migrations
+alembic upgrade head
+```
+
+Fallback: raw SQL files were archived to `data/sql-backups/`. Use `psql` only for manual/one-off setups:
+
+```bash
+psql "$DATABASE_URL" -f data/sql-backups/init.sql
+psql "$DATABASE_URL" -f data/sql-backups/mock_data.sql
+```
+
